@@ -1,0 +1,34 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    ZenTest (4.5.0)
+    autotest (4.4.6)
+      ZenTest (>= 4.4.1)
+    autotest-notification (2.3.1)
+      autotest (~> 4.3)
+    diff-lcs (1.1.2)
+    hpricot (0.8.4-java)
+    htmlentities (4.3.0)
+    imdb (0.6.5)
+      hpricot (>= 0.8.1)
+    rcov (0.9.9-java)
+    rspec (2.6.0)
+      rspec-core (~> 2.6.0)
+      rspec-expectations (~> 2.6.0)
+      rspec-mocks (~> 2.6.0)
+    rspec-core (2.6.4)
+    rspec-expectations (2.6.0)
+      diff-lcs (~> 1.1.2)
+    rspec-mocks (2.6.0)
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  ZenTest
+  autotest
+  autotest-notification
+  htmlentities
+  imdb
+  rcov
+  rspec

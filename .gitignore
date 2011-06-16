@@ -1,0 +1,5 @@
+vendor/jruby
+vendor/cache
+vendor/ruby
+coverage
+.bundle

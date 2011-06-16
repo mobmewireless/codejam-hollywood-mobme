@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'bundler/setup'
+
+$LOAD_PATH << "#{File.dirname(__FILE__)}/../lib"
+
+require 'mobme/codejam/top_actors'
+
+# Logger
+logger = Logger.new(STDOUT)
+logger.level = Logger::INFO
+
+top_actors = MobME::CodeJam::TopActors.new
+top_actors.logger = logger
+p top_actors.rank_actors

@@ -1,0 +1,17 @@
+Design
+
+The top_actors program uses core Ruby libraries to query IMDB data to rank actors based on the number of their appearances in the IMDB top 250 list. When actors have the same number of appearances, standard competition ranking is used to rank results.
+
+Dependencies
+
+Install:
+* rvm
+* jruby 1.6.2 
+
+and then do:
+$ bundle install --path vendor 
+to install dependencies
+
+Usage
+
+$ ./bin/top_actors
